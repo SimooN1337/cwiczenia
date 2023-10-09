@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cwiczenie</title>
+</head>
+<body>
+	<label>
+		Podaj numer dnia tygodnia: <input id="xd" type="number">
+	</label>
+	
+	<input id="okej" type="submit" value="Zobacz nazwę dnia" onclick="getDayName()">
+
+	<div id="wynik">
+
+    </div>
+	
+	<script>
+	
+		function getDayName()
+		{
+            if (okej==1){
+                napis=="Poniedzialek"
+                document.getElementById("wynik").innerHTML = napis;
+            }
+			
+		}
+
+	</script>
+
+</body>
+</html>
